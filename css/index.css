@@ -98,6 +98,39 @@ header{
     width: calc(50% - 50px) ;
  }
 
+  /* MAIN THREE  */
+
+.section-one-main-three{
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.col-1-2{
+    width: 30%;
+    display: flex;
+    height: 300px;
+ }
+
+  /* MAIN four  */
+  .main-four{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    
+  }
+
+  .section-one-mian-four{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .under-section{
+    width: 50%;
+    height: 50%;
+  }
 
 /* DEBUG  */
 
@@ -145,6 +178,10 @@ header{
     background-color: lightgreen;
 }
 
+.debug .col-1-2{
+    background-color: lightgreen;
+}
+
 .debug .section-two-main-two{
     background-color: lightgreen;
 }
@@ -160,4 +197,20 @@ header{
 
 .debug .text-section-forth-main-two{
     background-color: lightpink;
+}
+.debug .main-four{
+    background-color: lightgreen;
+}
+
+.debug .section-one-mian-four{
+    height: 50vh;
+    background-color: lightcoral;
+    border: 1px solid black;
+}
+
+.debug .under-section{
+    background-color: lightsalmon;
+    border: 1px solid black;
+
+
 }
