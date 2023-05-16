@@ -13,3 +13,67 @@
 }
 
 /* GENERAL */
+
+
+
+
+/* HEADER  */
+
+header{
+    height: 100px;
+    display: flex;
+}
+
+.header-section-one{
+    width: calc(100% / 3);
+    display: flex;
+}
+
+.header-section-two{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section-three{
+    width: calc(100% / 3);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-of-the-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+   
+
+
+}
+
+
+
+/* DEBUG  */
+
+.debug header{
+    background-color: aqua;
+}
+
+.debug .header-section-one{
+    background-color: bisque;
+    height: 100%;
+}
+.debug .header-section-two{
+    background-color: lightcoral;
+    height: 100%;
+}
+.debug .header-section-three{
+    background-color: lightsalmon;
+    height: 100%;
+}
+
+.debug li {
+    border: 1px solid black;
+    
+}
