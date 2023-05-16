@@ -14,7 +14,22 @@
 
 /* GENERAL */
 
+.wrapper{
+    max-width: 1200px;
+    margin: auto;
+ }
 
+ .margin-top-100{
+    margin-top: 100px;
+ }
+
+ .padding-top-50{
+    padding-top: 50px ;
+ }
+
+ .margin-left-25{
+    margin-left:25px;
+ }
 
 
 /* HEADER  */
@@ -46,12 +61,42 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    
-   
-
-
 }
 
+  /* MAIN ONE  */
+
+
+
+ /* MAIN TWO  */
+
+ .section-two-main-two{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .col-1{
+    width: 30%;
+    display: flex;
+ }
+
+ .section-two-main-three{
+    height: 300px;
+ }
+
+
+ .section-forth-main-two{
+    display: flex;
+ }
+
+ .section-forth-img{
+    width: 50%;
+    height: 600px;
+ }
+
+ .text-section-forth-main-two{
+    margin-left: 50px;
+    width: calc(50% - 50px) ;
+ }
 
 
 /* DEBUG  */
@@ -74,6 +119,45 @@ header{
 }
 
 .debug li {
-    border: 1px solid black;
-    
+    border: 1px solid black; 
+}
+
+.debug .main-one{
+    height: 600px;
+    background-color: aquamarine; 
+}
+
+.debug .container{
+    max-width: 1200px;
+    margin: auto;
+    height: 500px;
+    background-color: salmon;
+    position: relative;
+    top: 125px;
+}
+
+.wrapper{
+    background-color: lightseagreen;
+}
+
+.debug .col-1{
+    height: 600px;
+    background-color: lightgreen;
+}
+
+.debug .section-two-main-two{
+    background-color: lightgreen;
+}
+
+.debug .section-forth-main-two{
+    height:600px;
+    background-color: lightgreen;
+}
+
+.debug .section-forth-img{
+    background-color: lightpink;
+}
+
+.debug .text-section-forth-main-two{
+    background-color: lightpink;
 }
