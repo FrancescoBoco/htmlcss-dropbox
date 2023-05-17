@@ -15,7 +15,7 @@
 /* GENERAL */
 
 .wrapper{
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
  }
 
@@ -61,6 +61,7 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    list-style: none;
 }
 
   /* MAIN ONE  */
@@ -98,6 +99,19 @@ header{
     width: calc(50% - 50px) ;
  }
 
+ .text-section-five-main-two{
+    margin-left: 50px;
+    width: calc(50% - 50px) ;
+ }
+
+ .section-five-img{
+    width: 50%;
+    height: 300px;
+ }
+
+ .section-one-main-five{
+    display: flex;
+ }
   /* MAIN THREE  */
 
 .section-one-main-three{
@@ -113,25 +127,50 @@ header{
  }
 
   /* MAIN four  */
-  .main-four{
+.main-four{
     width: 100vw;
     height: 50vh;
     display: flex;
-    
-  }
 
-  .section-one-mian-four{
+}
+
+.section-one-mian-four{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
 
-  }
+}
 
-  .under-section{
+.under-section{
     width: 50%;
     height: 50%;
-  }
+}
 
+
+  /* MAIN FINE  */
+
+
+  .section-five-img{
+    width: 50%;
+    height: 300px;
+ }
+
+ .text-section-five-main-two{
+    margin-left: 50px;
+    width: calc(50% - 50px) ;
+ }
+
+
+  /* MAIN SIX */
+
+.section-one-main-six{
+    
+}
+
+.text-section-one-main-six{
+    padding: 20px 0px 20px 0px;
+}
+ 
 /* DEBUG  */
 
 .debug header{
@@ -191,6 +230,11 @@ header{
     background-color: lightgreen;
 }
 
+.debug .section-one-main-five{
+    height:300px;
+    background-color: lightgreen;
+}
+
 .debug .section-forth-img{
     background-color: lightpink;
 }
@@ -213,4 +257,17 @@ header{
     border: 1px solid black;
 
 
+}
+
+.debug .section-five-img{
+    background-color: lightpink;
+}
+
+.debug .text-section-five-main-two{
+    background-color: lightpink;
+}
+
+.debug .section-forth-main-five{
+    height:300px;
+    background-color: lightgreen;
 }
