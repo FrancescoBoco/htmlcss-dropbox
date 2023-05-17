@@ -142,12 +142,10 @@ header{
 }
 
 .under-section{
-    width: 50%;
-    height: 50%;
+width: 50%;
+height: 50%;
 }
 
-
-  /* MAIN FINE  */
 
 
   .section-five-img{
@@ -163,6 +161,7 @@ header{
 
   /* MAIN SIX */
 
+
 .section-one-main-six{
     
 }
@@ -171,6 +170,26 @@ header{
     padding: 20px 0px 20px 0px;
 }
  
+  /* MAIN FINE  */
+ /* FOOTER  */
+
+footer{
+    width: 1200px;
+    margin: auto;
+}
+
+.footer-container{
+    width: 100%;
+    display: flex;
+
+}
+
+.section-one-footer{
+    width: calc(100% / 5);
+    
+}
+
+
 /* DEBUG  */
 
 .debug header{
@@ -270,4 +289,15 @@ header{
 .debug .section-forth-main-five{
     height:300px;
     background-color: lightgreen;
+}
+
+.debug .section-one-footer{
+    height: 300px;
+    background-color: black;
+    border: 1px solid yellow;
+}
+
+.debug .section-two-footer{
+    height: 100px;
+    background-color: black;
 }
