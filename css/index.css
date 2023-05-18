@@ -134,17 +134,18 @@ header{
   .big-container{
     width: 60%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .small-container{
     width: 40%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 }
 
 .img{
     width: 100%;
+    
 }
 
 
@@ -164,12 +165,12 @@ header{
 
  .col-1{
     width: 30%;
-    border: 1px solid black;
+    border: 1px solid lightgrey;
    
  }
 
  .row-1-1{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     padding: 5px;
  }
@@ -194,7 +195,8 @@ hr{
 }
 
  .section-two-main-three{
-    height: 300px;
+    border: 1px solid lightgray;
+    
  }
 
  .fa-check{
@@ -210,6 +212,15 @@ hr{
     width: 50%;
     height: 600px;
  }
+ .row-1-2{
+    width: 70%;
+    
+ }
+
+ .row-1-3{
+    margin-left: 50px;
+    width: calc(30% - 50px) ;
+ }
 
  .text-section-forth-main-two{
     margin-left: 50px;
@@ -223,7 +234,7 @@ hr{
 
  .section-five-img{
     width: 50%;
-    height: 300px;
+    height: 50vh;
  }
 
  .section-one-main-five{
@@ -234,20 +245,33 @@ hr{
 .section-one-main-three{
     display: flex;
     justify-content: space-between;
-    height: 300px;
+    /* height: 300px; */
 }
+
+p{
+    font-size: 0.9em;
+ }
 
 .col-1-2{
     width: 30%;
     display: flex;
-    height: 300px;
+    /* height: 300px; */
  }
 
+ .col-2{
+    display:flex;
+ }
+
+.section-three-main-three{
+    display: flex;
+    height: 50vh;
+}
   /* MAIN four  */
 .main-four{
     width: 100vw;
     height: 50vh;
     display: flex;
+    background-color: rgb(236, 233, 233);
 
 }
 
@@ -255,26 +279,93 @@ hr{
     width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
+    height: 50vh;
+
 
 }
+
+.section-one-mian-four2{
+    width: calc(100% / 3);
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 
 .under-section{
 width: 50%;
 height: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
 }
 
+.section-one-mian-four > .under-section:first-child{
+    background-color: rgb(134, 218, 134);
+    border:10px solid rgb(196, 253, 196)
+}
 
+.section-one-mian-four > .under-section:nth-child(2){
+    background-color: rgb(99, 1, 59);
+}
+.section-one-mian-four > .under-section:nth-child(3){
+    background-color: rgb(0, 110, 244);
+}
+
+.section-one-mian-four > .under-section:last-child{
+    background-color: red;
+}
+
+.section-one-mian-four2 > .under-section:first-child{
+    background-color: rgb(214, 2, 2) ;
+}
+
+.section-one-mian-four2 > .under-section:nth-child(2){
+    background-color: rgb(41, 131, 242);
+}
+.section-one-mian-four2 > .under-section:nth-child(3){
+    background-color: rgb(3, 3, 203);
+}
+
+.section-one-mian-four2 > .under-section:last-child{
+    background-color: rgb(234, 234, 0);
+}
+
+.img-main-four{
+    width: 150px;
+    color: white;
+    filter:invert(100%)
+}
+
+.middle-section{
+    
+    
+}
+
+.middle-img{
+    width: 300px;
+    padding: 20px;
+    border-bottom: 1px solid lightgrey;
+}
 
   .section-five-img{
     width: 50%;
-    height: 300px;
+    height: 50vh;
  }
 
  .text-section-five-main-two{
     margin-left: 50px;
     width: calc(50% - 50px) ;
+    height: 50vh;
  }
 
+ .link-grey{
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    width: max-content;
+    border: 1px solid lightgrey;
+ }
 
   /* MAIN SIX */
 
@@ -327,7 +418,7 @@ footer{
 }
 
 .debug li {
-    border: 1px solid black; 
+    border: 1px solid lightgray; 
 }
 
 .main-one{
@@ -340,18 +431,18 @@ footer{
     background-color: salmon;
 }
 
-.wrapper{
+/* .wrapper{
     background-color: lightseagreen;
-}
+} */
 
 /* .debug .col-1{
     height: 600px;
     background-color: lightgreen;
 } */
 
-.debug .col-1-2{
+/* .debug .col-1-2{
     background-color: lightgreen;
-}
+} */
 
 /* .debug .section-two-main-two{
     background-color: lightgreen;
@@ -374,19 +465,17 @@ footer{
 .debug .text-section-forth-main-two{
     background-color: lightpink;
 }
-.debug .main-four{
-    background-color: lightgreen;
+/* .debug .main-four{
+    background-color: rgb(0, 0, 0); */
 }
 
 .debug .section-one-mian-four{
-    height: 50vh;
-    background-color: lightcoral;
-    border: 1px solid black;
+    background-color: lightgrey;
 }
 
 .debug .under-section{
     background-color: lightsalmon;
-    border: 1px solid black;
+    border: 1px solid lightgray;
 
 
 }
@@ -395,9 +484,9 @@ footer{
     background-color: lightpink;
 }
 
-.debug .text-section-five-main-two{
+/* .debug .text-section-five-main-two{
     background-color: lightpink;
-}
+} */
 
 .debug .section-forth-main-five{
     height:300px;
