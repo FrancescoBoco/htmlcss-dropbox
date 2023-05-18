@@ -229,8 +229,8 @@ hr{
 
 
 
- .section-five-img{
-    width: 50%;
+ .section-fourth-img{
+    width: 100%;
     height: 50vh;
  }
 
@@ -355,6 +355,12 @@ justify-content: center;
    
  }
 
+ .text-section-fourth-main-two{
+    height: 50vh;
+    width: calc(50% -50px);
+    padding-left: 50px;
+ }
+
  .text-section-five-main-two{
     display: flex;
     margin-left: 50px;
@@ -423,6 +429,8 @@ footer{
 
 .section-one-footer{
     width: calc(100% / 5);
+    color: white;
+    padding: 50px 20px 50px 20px;
     
 }
 
@@ -446,9 +454,15 @@ footer{
     height: 100%;
 }
 
-.debug li {
-    border: 1px solid lightgray; 
+.debug .section-one-footer  ul> li{
+   list-style: none;
+   padding-top: 10px;
 }
+
+.debug .section-one-footer  ul> li:first-child{
+    list-style: none;
+    padding-top: 20px;
+ }
 
 .main-one{
     height: 600px;
