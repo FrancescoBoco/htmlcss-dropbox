@@ -227,19 +227,14 @@ hr{
     width: calc(50% - 50px) ;
  }
 
- .text-section-five-main-two{
-    margin-left: 50px;
-    width: calc(50% - 50px) ;
- }
+
 
  .section-five-img{
     width: 50%;
     height: 50vh;
  }
 
- .section-one-main-five{
-    display: flex;
- }
+ 
   /* MAIN THREE  */
 
 .section-one-main-three{
@@ -350,14 +345,31 @@ justify-content: center;
 }
 
   .section-five-img{
-    width: 50%;
-    height: 50vh;
+    display: flex;
+    width: 60%;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+
+   
  }
 
  .text-section-five-main-two{
+    display: flex;
     margin-left: 50px;
-    width: calc(50% - 50px) ;
-    height: 50vh;
+    width: 40% ;
+    height: 25vh;
+    align-items: center;
+    justify-content: center;
+    
+ }
+ .link-white{
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    width: max-content;
+    background-color: white;
+
  }
 
  .link-grey{
@@ -366,16 +378,33 @@ justify-content: center;
     width: max-content;
     border: 1px solid lightgrey;
  }
+ /* MAIN FIVE  */
+ .section-one-main-five{
+    height: 25vh;
+    /* background-color: aqua; */
+    display: flex;
+   
+ }
+ .container-main-five{
+    /* height: 300px; */
+    background-color: skyblue;
 
+ }
   /* MAIN SIX */
 
 
-.section-one-main-six{
-    
+.full-hr{
+    width: 100%;
 }
 
+.shevron-faq{
+    
+
+}
 .text-section-one-main-six{
     padding: 20px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
 }
  
   /* MAIN FINE  */
@@ -453,10 +482,7 @@ footer{
     background-color: lightgreen;
 }
 
-.debug .section-one-main-five{
-    height:300px;
-    background-color: lightgreen;
-}
+
 
 .debug .section-forth-img{
     background-color: lightpink;
@@ -479,9 +505,9 @@ footer{
 
 
 }
-
+/* 
 .debug .section-five-img{
-    background-color: lightpink;
+    background-color: lightpink; */
 }
 
 /* .debug .text-section-five-main-two{
